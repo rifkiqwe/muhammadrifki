@@ -1,0 +1,93 @@
+body{
+    font: 16px arial;
+    background-color: rgb(94, 89, 79);
+    background-image: url(Cuplikan\ layar\ 2024-07-15\ 214517.png);
+}
+
+.container {
+    width: 800px;
+    background-color: rgb(192, 159, 118);
+    margin: auto;
+}
+
+.header {
+    padding: 0px;
+    text-align: center;
+}
+
+.header .Judul {
+    font-size: 60px;
+    font-weight: bold;
+    background-image: url(Cuplikan\ layar\ 2024-07-15\ 214517.png);
+    height: 200px;
+    background-size: cover;
+    background-position: 0 -50px;
+    color: brown;
+  
+}
+
+.header ul li{
+    display: inline-block;
+    list-style-type: none;  
+}
+
+.menu {
+    background-color: cadetblue;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 1.8);
+}
+
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 15px;
+}
+
+.header a:link, a:visited{
+    display: inline-block;
+    width: 100px;
+}
+
+.header a:hover{
+    background-color: rgb(214, 223, 223);
+    color: rgb(31, 135, 52);
+}
+
+.gambar {
+    background-image: url(Cuplikan\ layar\ 2024-07-15\ 214517.png);
+    height: 300px;
+    background-size: cover;
+    background-position: 0px -80px;
+    border-top: 5px solid cadetblue;
+    border-bottom: 5px solid black;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    
+}
+
+.content .penulis a{
+    text-decoration: none;
+    color: rgb(12, 83, 83);
+}
+
+.content .penulis{
+    margin-top: -20px;
+}
+
+.footer {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer .copyright {
+    color: rgb(31, 135, 52);
+}
+
+
+
